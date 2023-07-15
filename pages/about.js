@@ -15,53 +15,29 @@ export default function About() {
         <h1 className="text-center text-5xl font-bold m-6">{appName}</h1>
 
         <p className="prose">
-          This open-source website provides a simple interface for modifying
-          images using text-based instructions. You can upload an image, provide
-          a text prompt describing how to change that image, and generate new
-          images based on the prompt.
+         Plug-in Based on open-source technology, provides a web-based interface for modifying images 
+    using text-written instructions. You can upload an image, enter a text prompt describing how to change that image. 
+      You can generate updated images based on the prompt, and download those images.
         </p>
 
         <p className="prose">
-          The image generation is powered by{" "}
-          <Link href="https://www.timothybrooks.com/instruct-pix2pix/">
-            InstructPix2Pix
-          </Link>
-          , an open-source machine learning model that combines the knowledge
-          from <Link href="https://openai.com/api/">GPT-3</Link> and{" "}
-          <Link href="https://replicate.com/stability-ai/stable-diffusion?utm_source=project&utm_campaign=paintbytext">
-            Stable Diffusion
-          </Link>{" "}
-          to generate a large dataset of image editing examples. This model was
-          created at the University of California, Berkeley by{" "}
-          <Link href="https://timothybrooks.com/about">Tim Brooks</Link>,{" "}
-          <Link href="http://www.holynski.org/">Aleksander Holynski</Link>, and{" "}
-          <Link href="https://people.eecs.berkeley.edu/~efros/">
-            Alexei A. Efros
-          </Link>
-          .
+      The interface allows users to customize the instructions to create images with desired effects. 
+      It is an easy and efficient way to generate images quickly, without having to manually edit them.
         </p>
 
         <p className="prose">
-          The model is hosted on{" "}
-          <Link href="https://replicate.com/timothybrooks/instruct-pix2pix?utm_source=project&utm_campaign=paintbytext">
-            Replicate
-          </Link>
-          , which exposes a cloud API for running predictions. This website is
-          built with Next.js and hosted on
-          <Link href="https://vercel.com/templates/ai">Vercel</Link>, and uses
-          Replicate&apos;s API to run the InstructPix2Pix model. The source code
-          is publicly available on{" "}
-          <Link href="https://github.com/replicate/instruct-pix2pix-demo">
-            GitHub
-          </Link>
-          . Pull requests welcome!
+          It also eliminates the need for costly software and complex coding. 
+      It provides an intuitive way to create high-quality images in a fraction of the time.
+        </p>
+              <p className="prose">
+         Your imagination is the only barrier
         </p>
 
         <div className="text-center mt-10">
           <Link href="/">
             <a className="bg-black text-white rounded-md text-small inline-block p-3 flex-none">
               <ArrowLeftIcon className="icon" />
-              Back to painting
+              Back to making stuff
             </a>
           </Link>
         </div>
