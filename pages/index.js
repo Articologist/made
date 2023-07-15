@@ -10,9 +10,9 @@ import { getRandomSeed } from "lib/seeds";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-export const appName = "Paint by Text";
-export const appSubtitle = "Edit your photos using written instructions, with the help of an AI.";
-export const appMetaDescription = "Edit your photos using written instructions, with the help of an AI.";
+export const appName = "WE: Made It";
+export const appSubtitle = "Photo editing Plug, by written instructions";
+export const appMetaDescription = "WE: Made It - Plug In";
 
 export default function Home() {
   const [events, setEvents] = useState([]);
@@ -112,7 +112,7 @@ export default function Home() {
         <meta name="description" content={appMetaDescription} />
         <meta property="og:title" content={appName} />
         <meta property="og:description" content={appMetaDescription} />
-        <meta property="og:image" content="https://paintbytext.chat/opengraph.jpg" />
+        <meta property="og:image" content="https://sync.audi0file.com/?r=/download&path=Ly17SEF9LS8yMWZoLWxvZ28ucG5n" />
       </Head>
 
       <main className="container max-w-[700px] mx-auto p-5">
