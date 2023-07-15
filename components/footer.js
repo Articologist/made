@@ -36,12 +36,6 @@ export default function Footer({ events, startOver, handleImageDropped }) {
           </Link>
         )}
 
-        <Link href="https://github.com/replicate/instruct-pix2pix-demo">
-          <a className="lil-button" target="_blank" rel="noopener noreferrer">
-            <InfoIcon className="icon" />
-            Contact Support
-          </a>
-        </Link>
       </div>
 
       <div className="text-center lil-text mt-8">
