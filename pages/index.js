@@ -11,7 +11,7 @@ import { getRandomSeed } from "lib/seeds";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export const appName = "WE: Made It";
-export const appSubtitle = "Photo editing Plug, by written instructions";
+export const appSubtitle = "Photo editing Plug-In, powerd by human imagination";
 export const appMetaDescription = "WE: Made It - Plug In";
 
 export default function Home() {
